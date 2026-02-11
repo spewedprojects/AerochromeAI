@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="005bfdad-43b2-4fe9-911d-7cb30e592de4" name="Changes" comment="Initial tkinter UI to load the 16bit tiff files - works.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="005bfdad-43b2-4fe9-911d-7cb30e592de4" name="Changes" comment="Loads the AI model and generates masks - flora and sky." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,12 +84,22 @@
       <option name="project" value="LOCAL" />
       <updated>1770809181697</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Loads the AI model and generates masks - flora and sky.">
+      <option name="closed" value="true" />
+      <created>1770810901297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770810901297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Initial tkinter UI to load the 16bit tiff files - works." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial tkinter UI to load the 16bit tiff files - works." />
+    <MESSAGE value="{&#13;&#10;    &quot;error&quot;: {&#13;&#10;        &quot;message&quot;: &quot;You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys.&quot;,&#13;&#10;        &quot;type&quot;: &quot;invalid_request_error&quot;,&#13;&#10;        &quot;param&quot;: null,&#13;&#10;        &quot;code&quot;: null&#13;&#10;    }&#13;&#10;}" />
+    <MESSAGE value="Loads the AI model and generates masks - flora and sky." />
+    <option name="LAST_COMMIT_MESSAGE" value="Loads the AI model and generates masks - flora and sky." />
   </component>
 </project>
