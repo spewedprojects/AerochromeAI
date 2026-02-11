@@ -20,6 +20,8 @@ We will execute this in 4 distinct phases to isolate complexity.
     `├── core/`\
     `│   ├── __init__.py`\
     `│   ├── pipeline.py    # Image processing logic`\
+    `│   ├── segmentation.py    # Segmentation logic`\
+    `│   ├── color_engine.py    # Synthetic IR logic`\
     `│   └── loader.py      # 16-bit Tiff loading/saving`\
     `└── ui/`\
     `    ├── __init__.py`\
@@ -49,7 +51,7 @@ We will execute this in 4 distinct phases to isolate complexity.
   - **Image Proc:** opencv-python (Mask blurring), numpy (Matrix math).
 
 - **Model Weights:**
-  - `nvidia/segformer-b5-finetuned-ade20k-512x512` (Best balance of accuracy/speed for foliage).
+  - `nvidia/segformer-b5-finetuned-ade20k-640x640` (Best balance of accuracy/speed for foliage).
 
 ### D: DESIGN
 This is the technical architecture for the codebase.
